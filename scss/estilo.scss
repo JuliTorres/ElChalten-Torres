@@ -1,0 +1,73 @@
+$gris: grey;
+$celeste: rgb(0, 183, 255) ;
+$blanco: white;
+$naranja: orange;
+$negro: black;
+
+body {
+    background-color: $gris;
+}
+footer {
+    background-color: $naranja;
+    text-align: center;
+    margin-top: 10px;
+}
+h1 {
+    color: $naranja;
+    font-size: 100px;
+    text-align: center;
+}
+h2 {
+    color: $naranja;
+    font-size: 50px;
+}
+h4 {
+    color: $celeste;
+    font-size: 30px;
+}
+.parrafoprincipal {
+    color: $blanco;
+    font-size: 30px;
+    text-align: center; 
+}
+tr {
+     background-color: $negro;
+         th {
+             color: $celeste;
+             font-family: Verdana, Tahoma, sans-serif; 
+             font-size: 20px;
+             text-align: center;
+         }
+         td {
+             color: $blanco;
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             font-size: 20px;
+             text-align: center;
+         }
+}
+.transform:hover {
+    transform: scale(2,2); 
+}
+.transicion:hover {
+    transition: 3s;
+    font-size: 2rem; 
+}
+.transicion a:hover {
+    background-color: #00b7ff; 
+}
+.parrafoprincipal1 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    align-content: center; 
+}
+td:hover {
+    background-color: grey;
+}
+.formulario {
+    background-color: $negro;
+    padding: 10px;
+    &__completar {
+        color: $celeste;
+    }
+}

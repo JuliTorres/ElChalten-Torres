@@ -1,0 +1,63 @@
+body {
+  background-color: grey; }
+
+footer {
+  background-color: orange;
+  text-align: center;
+  margin-top: 10px; }
+
+h1 {
+  color: orange;
+  font-size: 100px;
+  text-align: center; }
+
+h2 {
+  color: orange;
+  font-size: 50px; }
+
+h4 {
+  color: #00b7ff;
+  font-size: 30px; }
+
+.parrafoprincipal {
+  color: white;
+  font-size: 30px;
+  text-align: center; }
+
+tr {
+  background-color: black; }
+  tr th {
+    color: #00b7ff;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center; }
+  tr td {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center; }
+
+.transform:hover {
+  transform: scale(2, 2); }
+
+.transicion:hover {
+  transition: 3s;
+  font-size: 2rem; }
+
+.transicion a:hover {
+  background-color: #00b7ff; }
+
+.parrafoprincipal1 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  align-content: center; }
+
+td:hover {
+  background-color: grey; }
+
+.formulario {
+  background-color: black;
+  padding: 10px; }
+  .formulario__completar {
+    color: #00b7ff; }
